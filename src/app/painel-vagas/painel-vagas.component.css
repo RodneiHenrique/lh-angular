@@ -1,0 +1,35 @@
+.box {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 15px;
+  width: auto;
+}
+
+legend {
+  border: 1px solid dodgerblue;
+  padding: 10px;
+  text-align: center;
+  background-color: dodgerblue;
+  border-radius: 8px;
+  color: white;
+}
+
+.posicao {
+    position: relative;
+}
+
+.User{
+    background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+}

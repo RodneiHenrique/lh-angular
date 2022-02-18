@@ -1,0 +1,21 @@
+<form>
+    <fieldset>
+        <legend><b>Cadastrar Vagas</b></legend><br>
+        <div class="box">
+            <div class="posicao">
+
+                <label>Id :</label><input type="text" name="id" size="1" class="User" [(ngModel)]="vaga.id"><br>
+                <label>Nome :</label><input type="text" name="nome" size="50" class="User" [(ngModel)]="vaga.nome"><br>
+                <label>Foto :</label><input type="text" name="foto" size="50" class="User" [(ngModel)]="vaga.foto"><br>
+                <label>Descrição :</label><input type="text" name="descricao" class="User" size="50"
+                    [(ngModel)]="vaga.descricao"><br>
+                <label>Salário :</label><input type="text" name="salario" class="User" size="10" [(ngModel)]="vaga.
+        salario"><br><br>
+                <button type="button" class="btn btn-primary" (click)="cadastrar()">Cadastrar Vaga</button>
+                <button type="button" class="btn btn-success" (click)="atualizar(vaga.id)">Atualizar Vaga</button>
+                <button type="button" class="btn btn-danger" (click)="excluir(vaga.id)">Excluir Vaga</button>
+            </div>
+        </div>
+    </fieldset>
+
+</form>
